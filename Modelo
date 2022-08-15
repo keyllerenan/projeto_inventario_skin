@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+        <meta charset="utf-8">
+        <style></style>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>--Inventário--</title>
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <div id="logo">
+                <img src="C:\Users\k_r_a\Desktop\Outros\Stream\Logo\Projeto Logo\Projeto final logo PNG.png" id="logo1">
+                    </div>
+                <div id="textocabecalho">    
+                    <h1 id="textocabecalho1">Aqui você vai preencher com dados das skins.</h1>
+                        </div>
+                    <div id="menu">
+                        <a href="#" id="home">Home</a>  <a href="#" id="inven">Inventário</a>  <a href="#" id="carteira">Carteira</a>
+                            </div>
+        </div>
+    </header>
+    </div>
+    <div class="container">
+        <div id="esquerda">
+            <form action="C:\Users\k_r_a\Desktop\Outros\Stream\Projeto Site\BANCO DE DADOS.xlsx" method="post">
+                <p><select name="COMPRA">COMPRA<option value="1"> </option><option value="2">Compra</option> <option value="3">Venda</option> </select> <strong>COMPRA/VENDA</strong></p>
+                <p><input type="text" name="SITE DE COMPRA" id="SITE DE COMPRA"> <strong>SITE DA COMPRA</strong></p>
+                <p><input type="number" name="number" id="QUANTIDADE DE ITEM"> <strong>QUANTIDADE DE ITEM</strong></p>
+        </div>
+    <div id="direita">
+        <p><select name="TRADELOCK">SITUAÇÃO<option value="4"> </option> <option value="5">Bloqueado</option> <option value="6">Liberado</option></select> <strong>SITUAÇÃO</strong></p>
+        <p><input type="text"> <strong> NOME DA SKIN</strong></p>
+        <p><select name="FLOAT"> FLOAT<option value="Factory New">Factory New</option><option value="Minimal Wear">Minimal Wear</option><option value="Field Testd">Field Testd</option> <strong>FLOAT</strong></select></p>
+            
+        <br><p><input type="submit" value="Enviar" name="submit"></p>
+            </form>
+    </div>
+    <footer>
+        <div id="roda_pe" >
+            <p><strong>Site para teste.</strong></p>
+    </div>
+    </footer>
+    </div>
+</body>
+</html>
+
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #fff;
+}
+p{
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    /*background-color: ;*/
+}
+body{
+    /*background-color: #d36a00;*/
+    background-image: url('background_1920x1080.jpg');
+    background-size: 100%;
+}
+header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #121212;
+    height: 100px;
+    width: 100%;
+    clear: both;
+    /*display: inline-block;*/
+}/*
+#logo{
+    padding: 20px 20px 20px 20px;
+    width: 100px;
+    height: 60px;
+}
+#logo1{
+    min-width: 100px;
+    width: 33,33%;
+    float: left;    
+}
+*/
+.cabecalho{
+    background: blue;
+    width: 100vw;
+    height: 5.2vh;
+
+    display: grid;
+    grid-template-columns: 1fr 1 fr 1fr;
+    grid-template-rows: 1fr;
+
+    grid-gap: 2px;
+}/*
+#textocabecalho{
+    min-width: 100px;
+    width: 33,33%;
+    /*float: center;*
+}
+#textocabecalho1{
+    padding: 25px;
+    text-align: center;
+}*/
+#menu{
+    min-width: 100px;
+    width: 33,33%;
+    float: right;
+    margin-top: 20px;
+}
+#home{
+    color: #fff;
+    text-decoration: none;
+    /*text-shadow: 1px 1px 1px rgb(255, 0, 212);*/
+    padding: 5px;
+}
+#inven{
+    color: #fff;
+    text-decoration: none;
+    /*text-shadow: 1px 1px 1px rgb(255, 0, 212);*/
+    padding: 5px;
+}
+#carteira{
+    color: #fff;
+    text-decoration: none;
+    /*text-shadow: 1px 1px 1px rgb(255, 0, 212);*/
+    padding: 5px;
+}
+#esquerda{
+    background-color: Sienna;
+    min-height: 200px;
+    width: 50%;
+    float: left;
+}
+#direita{
+    background-color: Indigo;
+    min-height: 200px;
+    width: 50%;
+    float: right;
+}
+footer{
+    clear: both;
+    background-color: grey;
+    height: 20px;
+}
+.container{
+    width: 960px;
+    margin: auto;
+}

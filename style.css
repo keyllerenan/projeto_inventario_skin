@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /*background-color: #d36a00;*/
+    background-image: url('background_1920x1080.jpg');
+    background-size: 100%;
+}
+header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    height: 100px;
+    width: auto;
+    clear: both;
+    /*display: inline-block;*/  
+}
+.container1{
+    width: 100%;
+    height: auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+
+    grid-gap: 2px;
+
+    align-self: center;
+}
+#logo{
+    min-width: auto;
+    width: auto;
+    padding: 20px 2px 20px 20px;
+}
+#logo1{
+    min-width: 100px;
+    width: 40px;   
+}
+#textoprincipal{
+    padding: auto;
+}
+#textoprincipal1{
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px;
+    text-align: center;
+}
+#menu{
+    padding: 70px 0px 0px 380px;
+}
+#home, #inven, #carteira{
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
